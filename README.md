@@ -35,6 +35,9 @@ Created by developer/artist [bitbof](https://bitbof.com)
 - `npm run build:embed` - build of embed into `/dist/`
 - `npm run build:help` - build help page (when clicking the question mark) into `/dist/`
 
+# Deployment
+For deployment instructions, including GitHub Pages sub-path deployment, see [DEPLOYMENT.md](DEPLOYMENT.md).
+
 # Embed
 Example usage of the embed can be found under: `/examples/embed/`
 
