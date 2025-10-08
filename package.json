@@ -11,8 +11,8 @@
   ],
   "scripts": {
     "start": "parcel serve src/index.html --no-cache",
-    "build": "parcel build src/index.html",
-    "build:embed": "parcel build src/embed.ts",
+    "build": "parcel build src/index.html --public-url .",
+    "build:embed": "parcel build src/embed.ts --public-url .",
     "build:help": "parcel build src/help.html --public-url .",
     "lang:add": "node src/languages/generate.js add",
     "lang:sync": "node src/languages/generate.js sync",
